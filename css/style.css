@@ -60,3 +60,12 @@ body
     background-repeat:no-repeat;
     background-size: cover;
 }
+
+
+.para
+{
+    text-align: center;
+    margin-top:60px;
+    letter-spacing: 5px;
+    font-weight:bolder;
+}
