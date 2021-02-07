@@ -34,7 +34,7 @@
     display:flex;
     list-style-type: none;
     height:50px;
-    margin-left:1000px;
+    margin-left:950px;
     padding-top:38px;
     
     
@@ -68,4 +68,20 @@ body
     margin-top:60px;
     letter-spacing: 5px;
     font-weight:bolder;
+}
+
+#hobbies
+{
+    border:2px solid green;
+    display:flex;
+    height:500px;
+    justify-content: center;
+    letter-spacing:10px;
+}
+
+img
+{
+    width:50px;
+    height:50px;
+    
 }
