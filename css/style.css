@@ -76,12 +76,11 @@ body
     display:flex;
     height:500px;
     /* justify-content: center; */
-    letter-spacing:10px;
+    /* letter-spacing:10px; */
 }
 
 img
 {
     width:388px;
-    height:300px;
-    
+    height:300px;    
 }
