@@ -1,103 +1,47 @@
-#circle
+*
 {
-    background:url(../images/dp.jpg);
-    background-size: cover;
-    border-radius:50% 50% 50% 50%;
-    width:300px;
-    height:300px;
-    margin:auto;
-    /* display:flex; */
+    font-family: 'Roboto Slab', serif;
+}
+#outer-me
+{
+    /* border:2px solid red; */
+    display:flex;
+    height:100px;
+    background-color: rgb(211, 213, 235);
+
 }
 
-
-
-#fname
+#inner-me
 {
-    color:rgb(25, 99, 104);
-    /* background-color:rgb(19, 201, 49); */
-    font-size:30px;
-    /* border-style:solid;
-    border-color:green; */
-    border-radius: 20px;
-    font-family:impact,Microsoft Yi Baiti;
-    /* background-image:url(https://media.giphy.com/media/3o7TKnLIfGOjKrGCkM/giphy.gif); */
-    /* background-repeat:no-repeat;
-    background-size:cover; */
-    margin-top:5%;
-    
-}
-#fname:hover
-{
-    color:red;  
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.link
+#inner-me img
 {
-    color:red;
-    
-}
-.link:hover 
-{
-     color: #0c1a6d;
-}
-
-.desc
-{
-    font-family:Calibri;
-    font-size:18px;
-    color:rgb(80, 245, 3);
-    text-align:justify;
-    text-justify:inter-word;
-    font-weight:900;
-}  
-
-#description
-{
-    /* border-style:solid;
-    border-color:red; */
-    margin-left:10%;
-    margin-right:10%;
+    width:260px;
+    height:240px;
+    border:2px solid green;
+    border-radius: 50%;
     
 }
 
-/* .contactMe
+#navbar
 {
-    border-style:solid;
-    border-color:red;
+    /* border:2px solid blue; */
+    display:flex;
+    list-style-type: none;
+    height:50px;
+    margin-left:1000px;
+    padding-top:38px;
     
-} */
-
-.move
-{
-    margin-left:50%;
-    color:blue;
-    font-family:Calibri;
-    font-size:18px;
-    font-weight:900;
-}
-
-.move:hover
-{
-    color:rgb(204, 0, 160);
-}
-
-.handles
-{
-    /* margin-left:80%; */
-    color:blue;
-    font-family:impact,Calibri;
-    font-size:18px;
-}
-
-.handles:hover
-{
-    color:rgb(255, 0, 0);
-}
-
-body
-{
-    background-image:url(https://media.giphy.com/media/3o7TKnLIfGOjKrGCkM/giphy.gif);
-    /* background-size:cover; */
-    /* background-repeat:no-repeat;    */
     
+}
+
+#navbar a
+{
+    text-decoration:none;
+    padding:50px;
+    text-align:center;
 }
