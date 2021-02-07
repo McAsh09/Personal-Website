@@ -7,7 +7,7 @@
     /* border:2px solid red; */
     display:flex;
     height:100px;
-    background-color: rgb(211, 213, 235);
+    background-color: rgba(211, 213, 235,0);
 
 }
 
@@ -55,5 +55,8 @@
 
 body
 {
-    background-image: url('');
+    background-image: url('../images/bg.png');
+
+    background-repeat:no-repeat;
+    background-size: cover;
 }
