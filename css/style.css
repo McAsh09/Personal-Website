@@ -16,13 +16,14 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top:20px;
 }
 
 #inner-me img
 {
     width:260px;
     height:240px;
-    border:2px solid green;
+    /* border:2px solid green; */
     border-radius: 50%;
     
 }
@@ -44,4 +45,15 @@
     text-decoration:none;
     padding:50px;
     text-align:center;
+    font-weight:bold;
+}
+
+#navbar a:hover
+{
+    color:rgb(0, 255, 213);
+}
+
+body
+{
+    background-image: url('');
 }
